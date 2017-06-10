@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i');
+
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+body {
+    margin: 0px;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 48px;
+}
+
+header {
+    height: 80px;
+}
+
+.nav-brand {
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+.nav-brand img {
+    height: 50px;
+}
+
+.cover {
+    height: 500px;
+    background: #0f4d92;
+}
+
+.cover h1{
+    text-align: center;
+    margin-top: 150px;
+    /* background: #0f4d92; */
+    color: white;
+    line-height: 60px;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Custom styles */
+@media only screen and (min-width: 768px) {
+    .nav-links {
+        line-height: 50px;
+        text-align: right;
+        padding-right: 50px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: #111;
+        display: inline-block;
+        line-height: 80px;
+        width: 100px;
+        text-align: center;
+    }
+
+    .nav-links a:hover {
+        background: #0f4d92;
+        color: #fff;
+    }
+
+    section {
+        padding: 50px 20%;
+    }
+}
