@@ -108,9 +108,7 @@ footer{
     .nav-links {
         line-height: 50px;
         text-align: right;
-        padding-right: 50px;
-        padding-top: 0px;
-        padding-bottom: 0px;
+        padding: 0px;
     }
 
     .nav-links a {
@@ -120,6 +118,8 @@ footer{
         line-height: 80px;
         width: 100px;
         text-align: center;
+        background: darkturquoise;
+        border-left: 1px solid white;
     }
 
     .nav-links a:hover {
