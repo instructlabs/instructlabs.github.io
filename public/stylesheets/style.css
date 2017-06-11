@@ -108,6 +108,7 @@ footer{
         line-height: 50px;
         text-align: right;
         padding: 0px;
+        padding-right: 50px;
     }
 
     .nav-links a {
