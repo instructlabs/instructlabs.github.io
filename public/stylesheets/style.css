@@ -67,8 +67,7 @@ h1 {
     line-height: 48px;
 }
 
-header {
-    height: 80px;
+.header {
     border-bottom:1px solid #0f4d92;
 }
 
@@ -90,7 +89,6 @@ header {
 .cover h1{
     text-align: center;
     margin-top: 150px;
-    /* background: #0f4d92; */
     color: white;
     line-height: 60px;
 }
