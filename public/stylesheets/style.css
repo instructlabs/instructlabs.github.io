@@ -56,16 +56,26 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     line-height: 24px;
+    color: #111;
 }
 
 h1, h2, h3, h4, h5 {
     font-weight: 300;
+    line-height: 1;
 }
 
-h1 {
-    font-size: 45px;
-    line-height: 48px;
-}
+/* h1 { */
+/*     font-size: 45px; */
+/*     line-height: 48px; */
+/* } */
+
+h1 {font-size:36px;}
+h2 {font-size:30px;}
+h3 {font-size:24px;}
+h4 {font-size:20px;}
+h5 {font-size:18px;}
+h6 {font-size:16px;}
+
 
 .header {
 
@@ -113,13 +123,11 @@ footer{
 
     .nav-links a {
         text-decoration: none;
-        color: #fff;
+        color: #111;
         display: inline-block;
         line-height: 80px;
         width: 100px;
         text-align: center;
-        background: darkturquoise;
-        border-left: 1px solid white;
     }
 
     .nav-links a:hover {
