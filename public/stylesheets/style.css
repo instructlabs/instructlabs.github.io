@@ -87,13 +87,21 @@ h6 {font-size:16px;}
     padding-bottom: 0px;
 }
 
+.nav-brand a, .nav-brand a:visited, .nav-brand a:active, .nav-brand a:hover  {
+    text-decoration: none;
+    color: #111;
+    font-size: 32px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
 .nav-brand img {
     height: 50px;
 }
 
 .cover {
     height: 500px;
-    background: #0f4d92;
+    background: deepskyblue;
 }
 
 .cover h1{
@@ -101,6 +109,7 @@ h6 {font-size:16px;}
     margin-top: 150px;
     color: white;
     line-height: 60px;
+    font-size: 42px;
 }
 
 
@@ -131,8 +140,7 @@ footer{
     }
 
     .nav-links a:hover {
-        background: #0f4d92;
-        color: #fff;
+        background: #fafafa;;
     }
 
     section {

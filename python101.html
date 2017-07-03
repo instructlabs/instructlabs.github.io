@@ -4,12 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="public/stylesheets/style.css">
+    <style>
+     .course-hero {
+         /* background: #ec008c;
+            background: -webkit-linear-gradient(to left, #fc6767, #ec008c);
+            background: linear-gradient(to left, #fc6767, #ec008c);
+          */
+         /* background: #f857a6;
+            background: -webkit-linear-gradient(to right, #ff5858, #f857a6);
+            background: linear-gradient(to right, #ff5858, #f857a6); */
+         color: white;
+         background-color: deepskyblue;
+     }
+
+     #modules {
+         background-color: #fafafa;
+     }
+
+     .topic-card {
+         height: 200px;
+         box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+         border: 1px #e5e5e5 solid;
+         padding: 10px 30px;
+         background: white;
+         color: #111;
+         border-radius: 6px
+     }
+
+     .topic-card:hover {
+         box-shadow: 0 1px 15px rgba(0,0,0,0.15);
+     }
+
+     .topic-card h3 {
+         font-weight: 400;
+     }
+
+     .topic-card p {
+         color: #555;
+     }
+    </style>
   </head>
   <body>
     <!-- Navigation -->
     <div class="row header">
       <div class="col-3 nav-brand">
-        <a href="index.html"><img src="public/images/instructlabs.png" /></a>
+        <a href="index.html">Instruct Labs</a>
       </div>
       <div class="col-9 nav-links">
         <a href="index.html">Home</a><a href="#about">About</a><a href="http://www.artofprogramming.org/team.html" target="_blank">Team</a><a href="contact.html">Contact</a>
@@ -20,7 +59,7 @@
         <div class="col-12">
           <h1 style="font-size: 42px;">Introduction to Python</h1>
           <p>
-            This is an introductory course on Python. The course teaches how to build Python programs groundup. The course is intended for someone with little or no experience programming in Python. 
+            This is an introductory course on Python. The course teaches how to build Python programs groundup. The course is intended for someone with little or no experience programming in Python.
           </p>
         </div>
       </div>
@@ -34,74 +73,74 @@
           </p>
         </div>
         <div class="col-6" style="padding: 30px;">
-          <div style="height: 300px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.26); padding: 20px; background: deepskyblue; color: white; border-radius: 4px;">
-            <h2>1. Introduction</h2>
+          <div class="topic-card">
+            <h3>1. Introduction</h3>
             <p>An introduction to Python language and about this course.</p>
           </div>
         </div>
         <div class="col-6" style="padding: 30px;">
-          <div style="height: 300px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.26); padding: 20px; background: deepskyblue; color: white; border-radius: 4px;">
-            <h2>2. Numbers</h2>
+          <div class="topic-card">
+            <h3>2. Numbers</h3>
             <p>Learn to do arithmetic computations in Python.</p>
           </div>
         </div>
         <div class="col-6" style="padding: 30px;">
-          <div style="height: 300px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.26); padding: 20px; background: deepskyblue; color: white; border-radius: 4px;">
-            <h2>3. Strings</h2>
+          <div class="topic-card">
+            <h3>3. Strings</h3>
             <p>Learn to store and manipulate text in Python.</p>
           </div>
         </div>
         <div class="col-6" style="padding: 30px;">
-          <div style="height: 300px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.26); padding: 20px; background: deepskyblue; color: white; border-radius: 4px;">
-            <h2>4. Lists</h2>
+          <div class="topic-card">
+            <h3>4. Lists</h3>
             <p>Learn to build and manipulate sequences of data.</p>
           </div>
         </div>
         <div class="col-6" style="padding: 30px;">
-          <div style="height: 300px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.26); padding: 20px; background: deepskyblue; color: white; border-radius: 4px;">
-            <h2>5. Control Structures</h2>
+          <div class="topic-card">
+            <h3>5. Control Structures</h3>
             <p>Write programs that can run loops and make decisions on the fly.</p>
           </div>
         </div>
         <div class="col-6" style="padding: 30px;">
-          <div style="height: 300px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.26); padding: 20px; background: deepskyblue; color: white; border-radius: 4px;">
-            <h2>6. List Comprehensions</h2>
+          <div class="topic-card">
+            <h3>6. List Comprehensions</h3>
             <p>Learn to build new lists derieved from existing ones.</p>
           </div>
         </div>
         <div class="col-6" style="padding: 30px;">
-          <div style="height: 300px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.26); padding: 20px; background: deepskyblue; color: white; border-radius: 4px;">
-            <h2>7. Tuples</h2>
+          <div class="topic-card">
+            <h3>7. Tuples</h3>
             <p>Tuples give a compact way to pack and unpack data.</p>
           </div>
         </div>
         <div class="col-6" style="padding: 30px;">
-          <div style="height: 300px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.26); padding: 20px; background: deepskyblue; color: white; border-radius: 4px;">
-            <h2>8. Dictionaries</h2>
+          <div class="topic-card">
+            <h3>8. Dictionaries</h3>
             <p>Dictionaries give a great way to search in a collection of items.</p>
           </div>
         </div>
         <div class="col-6" style="padding: 30px;">
-          <div style="height: 300px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.26); padding: 20px; background: deepskyblue; color: white; border-radius: 4px;">
-            <h2>9. Sets</h2>
+          <div class="topic-card">
+            <h3>9. Sets</h3>
             <p>Learn to build sets and perform operations on them.</p>
           </div>
         </div>
         <div class="col-6" style="padding: 30px;">
-          <div style="height: 300px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.26); padding: 20px; background: deepskyblue; color: white; border-radius: 4px;">
-            <h2>10. Functions</h2>
+          <div class="topic-card">
+            <h3>10. Functions</h3>
             <p>Python functions are a great way to build reusable components.</p>
           </div>
         </div>
         <div class="col-6" style="padding: 30px;">
-          <div style="height: 300px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.26); padding: 20px; background: deepskyblue; color: white; border-radius: 4px;">
-            <h2>11. Modules and Packages</h2>
+          <div class="topic-card">
+            <h3>11. Modules and Packages</h3>
             <p>Build large programs spread across multiple files and directories.</p>
           </div>
         </div>
         <div class="col-6" style="padding: 30px;">
-          <div style="height: 300px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.26); padding: 20px; background: deepskyblue; color: white; border-radius: 4px;">
-            <h2>12. Files</h2>
+          <div class="topic-card">
+            <h3>12. Files</h3>
             <p>Learn to read and write files from Python.</p>
           </div>
         </div>
